@@ -1,8 +1,17 @@
 body{
     background-color: gray;
-    background-image: url("astro-astronomy-background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+}
+
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* Nav Bar */
